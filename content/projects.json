@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "chronos-spatial-engine",
+    "title": "Chronos: Real-Time Spatial Engine",
+    "category": "WebGL / Interactive Physics",
+    "year": "2026",
+    "description": "A four-dimensional real-time spatial simulation exploring astronomical time, relativistic motion, and GPU raymarching shaders.",
+    "poster": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+    "videoPreview": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "accentColor": "#2DE2E6"
+  },
+  {
+    "slug": "aura-sensory-audio",
+    "title": "Aura: Kinetic Sound Architecture",
+    "category": "Generative Audio / 3D Installation",
+    "year": "2026",
+    "description": "An interactive synesthetic web platform that translates multi-channel audio frequencies into sculpted 3D deformation waves.",
+    "poster": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+    "videoPreview": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "accentColor": "#F2E6E6"
+  },
+  {
+    "slug": "vanguard-automotive",
+    "title": "Vanguard: Hypercar 3D Configurator",
+    "category": "Realtime PBR / WebGL Island",
+    "year": "2025",
+    "description": "Next-generation automotive configurator delivering 60fps real-time path-traced materials, carbon fiber weaves, and aerodynamic airflow vectors.",
+    "poster": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1200&q=80",
+    "videoPreview": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "accentColor": "#2DE2E6"
+  },
+  {
+    "slug": "hyperion-generative",
+    "title": "Hyperion: Procedural Brand Matrix",
+    "category": "Creative Code / Identity System",
+    "year": "2025",
+    "description": "A living identity system driven by algorithmic seed curves, fluid particle dynamics, and continuous SVG export engines.",
+    "poster": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+    "videoPreview": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "accentColor": "#F2E6E6"
+  },
+  {
+    "slug": "nebula-synthetic-void",
+    "title": "Nebula: Volumetric Raymarcher",
+    "category": "Custom Shaders / Volumetric FX",
+    "year": "2025",
+    "description": "Real-time gaseous nebula visualization combining multi-octave 3D Simplex noise with custom atmospheric scattering algorithms.",
+    "poster": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80",
+    "videoPreview": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+    "accentColor": "#2DE2E6"
+  },
+  {
+    "slug": "solaris-light-sculpture",
+    "title": "Solaris: Dynamic Optical Prism",
+    "category": "Physical Computing / Realtime WebGL",
+    "year": "2025",
+    "description": "Interactive optical prism installation simulating caustic photon dispersion, spectral chromatic refraction, and Fresnel light bounces.",
+    "poster": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80",
+    "videoPreview": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+    "accentColor": "#F2E6E6"
+  }
+]
