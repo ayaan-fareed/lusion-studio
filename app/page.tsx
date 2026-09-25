@@ -2,6 +2,8 @@ import HeroSection from "@/components/sections/HeroSection";
 import BrandStatement from "@/components/sections/BrandStatement";
 import FeaturedWork from "@/components/sections/FeaturedWork";
 import ClimaxSection from "@/components/sections/ClimaxSection";
+import StudioFooter from "@/components/sections/StudioFooter";
+import ContactDrawer from "@/components/ui/ContactDrawer";
 
 export default function HomePage() {
   return (
@@ -18,18 +20,17 @@ export default function HomePage() {
       {/* Phase 7 Climax 3D Astronaut Experience */}
       <ClimaxSection />
 
-      {/* Design System & Phase Verification Section */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 w-full pb-16 pt-16 space-y-12">
-        {/* Verification Status Anchor */}
+      {/* Design System Verification & Token Strip */}
+      <div className="max-w-7xl mx-auto px-6 sm:px-12 w-full pt-16 pb-8 space-y-8">
         <div className="flex justify-between items-center border-t border-b border-border-subtle-light py-5">
           <div className="flex items-center gap-3">
             <span className="w-2 h-2 rounded-full bg-accent-cyan animate-pulse" />
             <span className="text-xs uppercase tracking-widest text-secondary-light font-mono">
-              SYSTEM PROTOCOL // PHASE 7: CLIMAX 3D ASTRONAUT ACTIVE
+              SYSTEM PROTOCOL // PHASE 8: STUDIO FOOTER &amp; CONTACT DRAWER ACTIVE
             </span>
           </div>
           <span className="text-xs font-mono text-secondary-light hidden sm:inline-block">
-            SCROLL-PINNED ASTRONAUT + PROCEDURAL VISOR SHADER + ORBITAL BADGES
+            KINETIC MARQUEE + REAL-TIME TIMEZONE CLOCKS + VALIDATED INQUIRY DRAWER
           </span>
         </div>
 
@@ -56,13 +57,13 @@ export default function HomePage() {
             <p className="text-sm font-semibold">#2DE2E6</p>
           </div>
         </section>
-
-        {/* Footer verification & contact anchor */}
-        <footer id="contact" className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-xs font-mono text-secondary-light pt-6 border-t border-border-subtle-light">
-          <span>GATE 7: CLIMAX 3D ASTRONAUT EXPERIENCE VERIFIED</span>
-          <span>AWAITING PHASE 8 INSTRUCTION</span>
-        </footer>
       </div>
+
+      {/* Phase 8 Interactive Studio Footer */}
+      <StudioFooter />
+
+      {/* Phase 8 Interactive Contact Drawer */}
+      <ContactDrawer />
     </main>
   );
 }

@@ -20,6 +20,12 @@ interface UIState {
   isVideoModalOpen: boolean;
   openVideoModal: () => void;
   closeVideoModal: () => void;
+
+  // Contact drawer state
+  isContactDrawerOpen: boolean;
+  openContactDrawer: () => void;
+  closeContactDrawer: () => void;
+  toggleContactDrawer: () => void;
 }
 
 export const useUIStore = create<UIState>((set) => ({
@@ -37,4 +43,9 @@ export const useUIStore = create<UIState>((set) => ({
   isVideoModalOpen: false,
   openVideoModal: () => set({ isVideoModalOpen: true }),
   closeVideoModal: () => set({ isVideoModalOpen: false }),
+
+  isContactDrawerOpen: false,
+  openContactDrawer: () => set({ isContactDrawerOpen: true }),
+  closeContactDrawer: () => set({ isContactDrawerOpen: false }),
+  toggleContactDrawer: () => set((state) => ({ isContactDrawerOpen: !state.isContactDrawerOpen })),
 }));

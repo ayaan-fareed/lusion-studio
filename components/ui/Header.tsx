@@ -6,7 +6,7 @@ import { useUIStore } from "@/lib/store/useUIStore";
 import PillButton from "@/components/ui/PillButton";
 
 export default function Header() {
-  const { isMenuOpen, toggleMenu } = useUIStore();
+  const { isMenuOpen, toggleMenu, openContactDrawer } = useUIStore();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -48,7 +48,7 @@ export default function Header() {
           <PillButton
             label="LET'S TALK"
             dotCount={1}
-            href="#contact"
+            onClick={openContactDrawer}
             variant="glass"
             ariaLabel="Contact STUDIO PROTO"
           />
